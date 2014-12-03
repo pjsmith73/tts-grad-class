@@ -12,7 +12,11 @@ gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
+<<<<<<< HEAD
 gem 'therubyracer',  platforms: :ruby
+=======
+# gem 'therubyracer',  platforms: :ruby
+>>>>>>> 38fdab2b8de828295856285fa411db7184e4719c
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -65,4 +69,8 @@ group :test do
   gem "codeclimate-test-reporter", require: nil
 end
 
+<<<<<<< HEAD
 gem "pg"
+=======
+gem "pg"
+>>>>>>> 38fdab2b8de828295856285fa411db7184e4719c

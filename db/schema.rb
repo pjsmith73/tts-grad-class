@@ -11,7 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20141124234435) do
+=======
+ActiveRecord::Schema.define(version: 20141120233008) do
+>>>>>>> 38fdab2b8de828295856285fa411db7184e4719c
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -27,6 +31,7 @@ ActiveRecord::Schema.define(version: 20141124234435) do
   add_index "roles", ["name", "resource_type", "resource_id"], name: "index_roles_on_name_and_resource_type_and_resource_id", using: :btree
   add_index "roles", ["name"], name: "index_roles_on_name", using: :btree
 
+<<<<<<< HEAD
   create_table "startup_lists", force: true do |t|
     t.integer  "user_id"
     t.string   "name"
@@ -35,6 +40,8 @@ ActiveRecord::Schema.define(version: 20141124234435) do
     t.datetime "updated_at"
   end
 
+=======
+>>>>>>> 38fdab2b8de828295856285fa411db7184e4719c
   create_table "startup_resources", force: true do |t|
     t.integer  "user_id"
     t.string   "category"
